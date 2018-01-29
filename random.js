@@ -11,7 +11,7 @@ function Lottery(coins, max) {
 		if (chance === 1){
 			reward += win; 
 			coins += reward; 
-			console.log('You have won:', win, 'Coins');
+			console.log('You have won:', win, 'Coins', 'on game', i);
 			if(max === undefined){
 			  return coins; 
 			}
